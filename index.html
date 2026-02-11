@@ -5,27 +5,29 @@
     </head>
     <body>
         <div class="container">
-            <div class="homeSide">
-                <h3 class="titleName">HOME</h3>
-                <span id="home-score">0</span>
-                <div class="addPoints">
-                    <button class="onePlus" onclick="plusOne()">+1</button>
-                    <button class="twoPlus" onclick="plusTwo()">+2</button>
-                    <button class="threePlus" onclick="plusThree()">+3</button>
+            <div class=" score">
+                <div class="homeSide">
+                    <h3 class="titleName">HOME</h3>
+                    <span id="home-score">0</span>
+                    <div class="addPoints">
+                        <button class="onePlus" onclick="plusOne()">+1</button>
+                        <button class="twoPlus" onclick="plusTwo()">+2</button>
+                        <button class="threePlus" onclick="plusThree()">+3</button>
+                    </div>
+                </div>
+                <div  class="guestSide">
+                    <h3 class="titleName">AWAY</h3>
+                    <span id="guest-score">0</span>
+                    <div class="addPoints">
+                        <button class="onePlus" onclick="plusOne()">+1</button>
+                        <button class="twoPlus" onclick="plusTwo()">+2</button>
+                        <button class="threePlus" onclick="plusThree()">+3</button>
+                    </div>
                 </div>
             </div>
-            <div  class="guestSide">
-                <h3 class="titleName">AWAY</h3>
-                <span id="guest-score">0</span>
-                <div class="addPoints">
-                    <button class="onePlus" onclick="plusOne()">+1</button>
-                    <button class="twoPlus" onclick="plusTwo()">+2</button>
-                    <button class="threePlus" onclick="plusThree()">+3</button>
-                </div>
-            </div>
-        </div>
-        <div class="restartBlock">
+            <div class="restartBlock">
             <button class="restartScore" onclick="restart()"> Restart </button>
+            </div>
         </div>
         <script src="index.js"></script>
     </body>
